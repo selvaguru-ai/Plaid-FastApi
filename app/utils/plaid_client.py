@@ -47,3 +47,4 @@ def get_plaid_client() -> plaid_api.PlaidApi:
     """Get the singleton Plaid client instance."""
     plaid_client = PlaidClient()
     return plaid_client.client
+

@@ -79,3 +79,5 @@ class Transaction(BaseModel):
 class TransactionsResponse(BaseModel):
     transactions: List[Transaction]
     total_transactions: int
+
+

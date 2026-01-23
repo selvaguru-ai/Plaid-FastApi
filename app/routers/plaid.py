@@ -303,3 +303,5 @@ async def get_accounts(
         raise HTTPException(
             status_code=400, detail=f"Failed to fetch accounts: {str(e)}"
         )
+
+
